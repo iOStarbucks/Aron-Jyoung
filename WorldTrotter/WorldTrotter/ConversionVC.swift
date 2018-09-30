@@ -37,10 +37,20 @@ class ConversionViewController: UIViewController {
         return formatter
     } ()
     
+    let colors = [UIColor(hexString: "#BDBDBD"), UIColor(hexString: "#EEEEEE"), UIColor.white]
+    var count: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print("ConversionVC")
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        view.backgroundColor = colors[count % colors.count]
+        count += 1
     }
 }
 
