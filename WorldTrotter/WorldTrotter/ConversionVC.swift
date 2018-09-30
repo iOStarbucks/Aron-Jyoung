@@ -37,6 +37,12 @@ class ConversionViewController: UIViewController {
         return formatter
     } ()
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        print("ConversionVC")
+    }
+    
     func updateCelsiusLabel() {
         if let value = celsiusValue {
             celsiusLabel.text = formatter.string(from: NSNumber(value: value))
