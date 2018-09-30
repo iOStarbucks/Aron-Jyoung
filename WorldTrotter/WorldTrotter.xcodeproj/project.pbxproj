@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4032DC42160ADDC00F847DB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4032DC32160ADDB00F847DB /* MapKit.framework */; };
 		E4032DC62160B2C400F847DB /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4032DC52160B2C400F847DB /* MapVC.swift */; };
+		E4032DC82160B7C000F847DB /* UIColor + HexCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4032DC72160B7C000F847DB /* UIColor + HexCode.swift */; };
 		E41A3DF12143B0C800819F00 /* ConversionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41A3DF02143B0C800819F00 /* ConversionVC.swift */; };
 		E4BDEC9A213A5901001D5F14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDEC99213A5901001D5F14 /* AppDelegate.swift */; };
 		E4BDEC9F213A5901001D5F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BDEC9D213A5901001D5F14 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		E4032DC32160ADDB00F847DB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E4032DC52160B2C400F847DB /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		E4032DC72160B7C000F847DB /* UIColor + HexCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + HexCode.swift"; sourceTree = "<group>"; };
 		E41A3DF02143B0C800819F00 /* ConversionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionVC.swift; sourceTree = "<group>"; };
 		E4BDEC96213A5901001D5F14 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BDEC99213A5901001D5F14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				E4BDECA0213A5902001D5F14 /* Assets.xcassets */,
 				E4BDECA2213A5902001D5F14 /* LaunchScreen.storyboard */,
 				E4BDECA5213A5902001D5F14 /* Info.plist */,
+				E4032DC72160B7C000F847DB /* UIColor + HexCode.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				E41A3DF12143B0C800819F00 /* ConversionVC.swift in Sources */,
 				E4032DC62160B2C400F847DB /* MapVC.swift in Sources */,
+				E4032DC82160B7C000F847DB /* UIColor + HexCode.swift in Sources */,
 				E4BDEC9A213A5901001D5F14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
